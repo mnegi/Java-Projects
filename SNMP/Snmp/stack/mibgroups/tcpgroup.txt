@@ -1,0 +1,60 @@
+tcpRtoAlgorithm
+1.3.6.1.2.1.6.1.0
+false
+0
+retransmission time
+tcpRtoMin
+1.3.6.1.2.1.6.2.0
+false
+0
+minimum value for the retransmission timer
+tcpRtoMaxz
+1.3.6.1.2.1.6.3.0
+false
+0
+maximum value for the retransmission timer
+tcpMaxConn
+1.3.6.1.2.1.6.4.0
+false
+0
+Limit the total number of tcp connection the entity can support
+tcpActiveOpens
+1.3.6.1.2.1.6.5.0
+false
+0
+Number of active opens this entiy has supported
+tcpPassiveOpens
+1.3.6.1.2.1.6.6.0
+false
+0
+Number of pasive opens this entiy has supported
+tcpAttemptFails
+1.3.6.1.2.1.6.7.0
+false
+0
+number of failed connections attempts that have occured at this entity
+tcpEstabResets
+1.3.6.1.2.1.6.8.0
+false
+0
+Number of resets that have occured at this entity
+tcpCurrEstab
+1.3.6.1.2.1.6.9.0
+false
+0
+Number of tcp connections for which the current state is either ESTABLISHED or CLOSE-WAIT
+tcpInSegs
+1.3.6.1.2.1.6.10.0
+false
+0
+Total number of segments received including those received in error
+tcpOUtSegs
+1.3.6.1.2.1.6.11.0
+false
+0
+Total number of segments sent, excluding those containing only retransmitted octets
+tcpRetransSegs
+1.3.6.1.2.1.6.12.0
+false
+0
+Total number of retransmitted segments

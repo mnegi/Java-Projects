@@ -1,0 +1,105 @@
+ipFrowarding
+1.3.6.1.2.1.4.1.0
+true
+0
+Acting as IP gateway
+ipDefaultTTL
+1.3.6.1.2.1.4.2.0
+true
+0
+Default value inserted into Time-To-Live field of IP header of datagram originated at this enitiy.
+ipInRequests
+1.3.6.1.2.1.4.3.0
+false
+0
+Total number of input datagrams recieved from interfaces, includeing those received in errors.
+ipHdrErrors
+1.3.6.1.2.1.4.4.0
+false
+0
+Number if input datagrams discarded due to errors in IP header.
+ipInAddrErrors
+1.3.6.1.2.1.4.5.0
+false
+0
+Number of input datagrams discarded because the IP address in the destination field is not valid to be received at this entity.
+ipForwDatagrams
+1.3.6.1.2.1.4.6.0
+false
+0
+Number of input datagrams for which this enity is not their final IP destination as a result of which an attempt was made to forward.
+ipInUnknownProtos
+1.3.6.1.2.1.4.7.0
+false
+0
+Number of locally addressed datagrams recived successfully but discarded because of an unknown or unsupported protocol. 
+ipInDiscards
+1.3.6.1.2.1.4.8.0
+false
+0
+Number of input IP datagrams which no problems encoutered to prevent their continued processing but which were discarded (eg., lack of buffer space.)
+ipInDelivers
+1.3.6.1.2.1.4.9.0
+false
+0
+Total number of input datagrams successfully delivered to IP user protocols.
+ipOutRequests
+1.3.6.1.2.1.4.10.0
+false
+0
+Total number of IP datagrams that local IP user protocols supplied to IP in requests for transmissions.
+ipOUtDiscards
+1.3.6.1.2.1.4.11.0
+false
+0
+Number of output IP datagrams which no problems encoutered to prevent their continued processing but which were discarded (eg., lack of buffer space.)
+ipOutNoRoutes
+1.3.6.1.2.1.4.12.0
+false
+0
+Number of ip datagrams discarded because no route could be found.
+ipReasmTimeout
+1.3.6.1.2.1.4.13.0
+false
+0
+Maximum number of seconds that recived fragments are held awaiting reassembly at this entity.
+ipReasmReqds
+1.3.6.1.2.1.4.14.0
+false
+0
+Number of ip Fragments received that need to to be reassembled at this enity .
+ipReasmOKs
+1.3.6.1.2.1.4.15.0
+false
+0
+Number  of IP datagrams sucessfully reassembled.
+ipReasmFails
+1.3.6.1.2.1.4.16.0
+false
+0
+Number of failure detected by the IP reassembly algorithm.
+ipFragOKs
+1.3.6.1.2.1.4.17.0
+false
+0
+Number of IP datagrams that have been sucessfully fragmented at this entity .
+ipFragFails
+1.3.6.1.2.1.4.18.0
+false
+0
+Number of IP datagrams discarded because they needed to be fragmented at this entity but could not be because the dont't fragment flag was set.
+ipFragCreates
+1.3.6.1.2.1.4.19.0
+false
+0
+Number of IP datagrams fragments genetated at this entiy.
+ipAdEntAddr
+1.3.6.1.2.1.4.20
+false
+1
+IP address to which to which this entity addressing information pertains.
+ipRouteDest
+1.3.6.1.2.1.4.21
+true
+1
+destination IP address of this route.

@@ -1,0 +1,10 @@
+
+1. The source code is in \src folder.
+2. The executable jar file is given to run the program.
+
+3. Before you run this code, you need a DSN (data source name) to connect to MS Access.
+   The DSN name is "mani" which must be connected to the db1.mdb provided with this.
+
+4. Run the code
+
+   java -jar manohar.jar			

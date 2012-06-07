@@ -1,0 +1,130 @@
+icmpInMsgs
+1.3.6.1.2.1.5.1.0
+false
+0
+Total number of ICMP message that the enity received.
+icmpInErrors
+1.3.6.1.2.1.5.2.0
+false
+0
+Number of ICMP messages recived but determined to have ICMP speicific errors
+icmpInDestUnreachs
+1.3.6.1.2.1.5.3.0
+false
+0
+Number of ICMP Desination Unreachabel messages received
+icmpInTimeExcds
+1.3.6.1.2.1.5.4.0
+false
+0
+Number of ICMP Time Exceeded messages received
+icmpInParmProbs
+1.3.6.1.2.1.5.5.0
+false
+0
+Number of ICMP Parameter Problem Messsages Received
+icmpInsrcQuenchs
+1.3.6.1.2.1.5.6.0
+false
+0
+Number of ICMP source Quench messages received
+icmpInRedirescts
+1.3.6.1.2.1.5.7.0
+false
+0
+Number of ICMP redirect message received
+icmpInEchos
+1.3.6.1.2.1.5.8.0
+false
+0
+Number of ICMP Echo (request) messages received
+icmpInEchoResps
+1.3.6.1.2.1.5.9.0
+false
+0
+Number of ICMP Echo (replay) messages received
+icmpInTimestamps
+1.3.6.1.2.1.5.10.0
+false
+0
+Number of ICMP Timestamp (request) messages received
+icmpInTimestampReps
+1.3.6.1.2.1.5.11.0
+false
+0
+Number of ICMP Timestamp (replay) messages received
+icmpInAddrMasks
+1.3.6.1.2.1.5.12.0
+false
+0
+Number of ICMP Address Mask  requestmessages received
+icmpInAddrMaskReps
+1.3.6.1.2.1.5.13.0
+false
+0
+Number of ICMP Address Mask  replay messages received
+icmpOUtMsgs
+1.3.6.1.2.1.5.14.0
+false
+0
+Total number of ICMP messages that the entity attempted to send.
+icmpOUtErrors
+1.3.6.1.2.1.5.15.0
+false
+0
+Total number of ICMP messages that the entity did not send due to problems discovered within ICMP
+icmpOutDestUnreachs
+1.3.6.1.2.1.5.16.0
+false
+0
+Number of ICMP Destination unreachabel message sent
+icmpOUtTimeExcds
+1.3.6.1.2.1.5.17.0
+false
+0
+Number of ICMP Time exceeded messages sent
+icmpOutParmProbs
+1.3.6.1.2.1.5.18.0
+false
+0
+Number of ICMP parameter problem messages sent
+icmpOutSrcQuenchs
+1.3.6.1.2.1.5.19.0
+false
+0
+Number of ICMP source quench messages sent
+icmpOutRedirects
+1.3.6.1.2.1.5.20.0
+false
+0
+Number of ICMP redirect message sent
+icmpOutEchos
+1.3.6.1.2.1.5.21.0
+false
+0
+Number of ICMP echo request message sent
+icmpOutEchoReps
+1.3.6.1.2.1.5.22.0
+false
+0
+Number of ICMP  echo replay message sent
+icmpOUtTimeStamps
+1.3.6.1.2.1.5.23.0
+false
+0
+Number of ICMP time stamp request messages sent
+icmpOutTimestampReps
+1.3.6.1.2.1.5.24.0
+false
+0
+Number of ICMP time stamp replay messages sent
+icmpOUtAddrMasks
+1.3.6.1.2.1.5.25.0
+false
+0
+Number of ICMP address mask request messages sent
+icmpOutAddrMaskReps
+1.3.6.1.2.1.5.26.0
+false
+0
+Number of ICMP address mask replay messages sent
